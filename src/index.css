@@ -1,0 +1,223 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  width: auto;
+  background-color: #3498db;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  background-color: rgb(22, 69, 209);
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.home-page {
+  margin-top: 10px;
+}
+
+.home-page a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  letter-spacing: 0.5px;
+  gap: 0px 10px;
+  position: relative;
+}
+
+a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  width: 0%;
+  height: 2px;
+  gap: 0px 10px;
+  background-color: white;
+  transition: 0.5s linear;
+}
+a:hover {
+  color: aqua;
+}
+a:hover::after {
+  width: 100%;
+}
+.warrrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.card-1 img {
+  width: 300px;
+  height: 400px;
+  gap: 20px;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+
+/* review css */
+
+/* Rev */
+
+/* section {
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.reviews {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.review {
+  width: 300px;
+  background-color: #fff;
+  margin: 10px;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.review {
+  width: 100%;
+  border-radius: 50%;
+  margin-bottom: 10px;
+} */
+/* Add this CSS code to your stylesheet */
+.review-image {
+  width: 100%; /* Set the width as per your design */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 10px; /* Adjust the border radius as needed */
+}
+
+.review {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.review h3 {
+  color: #333;
+}
+
+.review p {
+  color: #555;
+}
+
+.custom-bg-color {
+  background-color: #6610f2;
+  color: #ddd; /* Replace with your desired color code */
+}
+.custom-toggler {
+  border-color: white; /* Set the border color of the toggle button */
+}
+
+.custom-toggler-icon {
+  background-color: white; /* Set the background color of the toggle button */
+}
+.demo {
+  background: none;
+}
+.demo-d {
+  background: none;
+  border: none;
+}
+.circular-image {
+  border-radius: 50%;
+  width: 100%; /* Ensure the image takes up the entire space within the circle */
+  height: auto; /* Maintain aspect ratio */
+}
+/* Modern and clean CSS */
+
+.contact-form {
+  max-width: 400px;
+  margin: auto;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  background-color: #ecf0f1;
+  color: #2c3e50;
+  text-align: center;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 12px;
+  font-size: 18px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 2px solid #bdc3c7;
+  border-radius: 8px;
+  box-sizing: border-box;
+  background-color: #fff;
+  color: #34495e;
+  outline: none;
+  font-size: 16px;
+  transition: border-color 0.3s, color 0.3s;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #3498db;
+  color: #2c3e50;
+}
+
+.contact-form textarea {
+  resize: vertical;
+}
+
+.submit-button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 15px 25px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+  background-color: #2980b9;
+}
+h1 {
+  font-family: "Protest Guerrilla", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.make-it {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
